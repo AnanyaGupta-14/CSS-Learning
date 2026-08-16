@@ -4,40 +4,33 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=favorite" />
   <style>
     *{
-      padding: 0px;
-      margin: 0px;
-      font-family: 'Times New Roman', Times, serif;
+      margin:0;
+      padding:0;
     }
-
-    #nav{
-      background-color: rgb(153, 165, 42);
-      text-align: center;
-      text-transform: uppercase;
+    .box{
+      height: 100px;
+      width: 100px;
+      border: 2px dotted red;
+      margin: 5px;
+      background-color: aqua;
     }
-
-    #outer{
-      font-size: 25px;
+    #btton{
+      height: 100px;
+      width: 100px;
+      padding: 10px 15px 10px 15px;
+      background-color: blueviolet;
+      margin:100px;
+      border: 2px dotted red;
+      border-radius: 50px;
     }
-
-    #inner{
-      font-size: 60px;
-    }
+   
 </style>
 </head>
 <body>
-  <div id="nav">
-    <h1>Navigation home</h1>
-  </div>
-
-  <div id="outer">
-    outer
-    <div id="inner">
-      Inner
-    </div>
-  </div>
-
+ <div class="box" style="box-sizing: border-box;">BOX 1</div>
+ <div class="box" style="box-sizing: content-box;">BOX 2</div>
+ <button id="btton">hello</button>
 </body>
 </html>
